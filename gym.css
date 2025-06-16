@@ -1,0 +1,141 @@
+.logo{
+    height: 60px;
+    width: 90px;
+    margin-left:40px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    height:80px;
+    position:fixed; width:100%;
+    gap: 700px;
+}
+.headerdetails{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+.img_top{
+    justify-items: center;
+    align-items: center;
+}
+.img_top p{
+    font-size: 80px;
+    color: white;
+}
+.img_top h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}.img1{
+    margin-top: 70px;
+    background-image: url("https://img.freepik.com/premium-photo/empty-gym-with-exercise-equipment-weights_239711-39172.jpg?semt=ais_hybrid&w=740");
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+.booking{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.month{
+    display: flex;
+    flex-direction: row;
+    padding:40px;
+    gap:20px;
+}
+.details{
+    border-radius:20px;
+    background-color: rgb(196, 201, 206);
+    padding: 20px;
+}
+.workout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.workout_img{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+.w_img{
+    height:170px;
+    width:170px;
+    border-radius: 20px;
+}
+.work{
+    background-color: rgb(210, 216, 221);
+    padding: 20px;
+    border-radius: 20px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+    padding:40px;
+    margin-top: 40px;
+}
+.final_img{
+    height:170px;
+    width: 170px;
+}
+@media all and (max-width: 1024px) {
+  .holeblock {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header {
+    padding-top: 10px;
+    flex-direction: column;
+    gap: 7px;
+    height: auto;
+    align-items: center;
+  }
+
+  .headerdetails {
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .img_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+  .month, .workout_img {
+    flex-direction: column;
+    align-items: center;
+    min-width: 200px;
+    min-height: 200px;
+    gap:20px;
+  }
+  .logo{
+    margin-left:-20px;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
+
+    
+
+
